@@ -8,10 +8,9 @@
 
 import UIKit
 
-class RedViewController: UIViewController {
+class RedViewController: ViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
 }

@@ -8,10 +8,9 @@
 
 import UIKit
 
-class GreenViewController: UIViewController {
+class GreenViewController: ViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
 }

@@ -2,29 +2,27 @@
 //  ContainerViewController.swift
 //  Live Cycle
 //
-//  Created by Руслан Сафин on 28/04/2019.
+//  Created by Ruslan Safin on 28/04/2019.
 //  Copyright © 2019 Ruslan Safin. All rights reserved.
 //
 
 import UIKit
 
 class ContainerViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    static var lineCounter = 0
+    
+    @IBOutlet var textView: UITextView!
+    
+    func update(caller: String) {
+        ContainerViewController.lineCounter += 1
+        
+        guard let text = textView.text else { return (textView.text = "\(caller)") }
+        textView.text = "\(text)\n \(caller)"
+        
+        let y = textView.contentSize.height - textView.bounds.size.height
+        
+        guard 0 < y else { return }
+        textView.setContentOffset(CGPoint(x: 0, y: y), animated: true)
     }
-    */
-
 }

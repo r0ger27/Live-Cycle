@@ -8,10 +8,9 @@
 
 import UIKit
 
-class BlueViewController: UIViewController {
+class BlueViewController: ViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-    
+    }    
 }
