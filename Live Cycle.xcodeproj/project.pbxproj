@@ -65,15 +65,23 @@
 				4B96DF352275B64300FBCE3A /* AppDelegate.swift */,
 				4B96DF372275B64300FBCE3A /* ViewController.swift */,
 				4B96DF4D2275BD3700FBCE3A /* ContainerViewController.swift */,
-				4B96DF472275B75E00FBCE3A /* RedViewController.swift */,
-				4B96DF492275B76C00FBCE3A /* BlueViewController.swift */,
-				4B96DF4B2275B77500FBCE3A /* GreenViewController.swift */,
+				4B96DF512275D10200FBCE3A /* Colors VC */,
 				4B96DF392275B64300FBCE3A /* Main.storyboard */,
 				4B96DF3C2275B64400FBCE3A /* Assets.xcassets */,
 				4B96DF3E2275B64400FBCE3A /* LaunchScreen.storyboard */,
 				4B96DF412275B64400FBCE3A /* Info.plist */,
 			);
 			path = "Live Cycle";
+			sourceTree = "<group>";
+		};
+		4B96DF512275D10200FBCE3A /* Colors VC */ = {
+			isa = PBXGroup;
+			children = (
+				4B96DF472275B75E00FBCE3A /* RedViewController.swift */,
+				4B96DF492275B76C00FBCE3A /* BlueViewController.swift */,
+				4B96DF4B2275B77500FBCE3A /* GreenViewController.swift */,
+			);
+			name = "Colors VC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
