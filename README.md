@@ -1,5 +1,5 @@
 # Live-Cycle
-Homework # 2 for the Switbook.ru, Webinar #2
+Homework # 2 for the Switbook.ru, Webinar #3
 
 In this application, we need to make a tap bar, and when we switching to items update text of the application Life cycle in TextView (with the previous results).
 
